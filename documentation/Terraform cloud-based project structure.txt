@@ -1,0 +1,43 @@
+CLOUD SECURITY PROJECT/
+│
+└── amazon-secure-cloud-platform/
+    │
+    ├── diagrams/
+    │
+    ├── documentation/
+    │
+    ├── terraform/
+    │   │
+    │   ├── main.tf
+    │   ├── provider.tf
+    │   ├── variables.tf
+    │   ├── outputs.tf
+    │   ├── terraform.tfvars
+    │   ├── README.md
+    │   │
+    │   ├── modules/
+    │       │
+    │       ├── compute/
+    │       │   ├── main.tf
+    │       │   ├── variables.tf
+    │       │   └── outputs.tf
+    │       │
+    │       ├── monitoring/
+    │       │   ├── main.tf
+    │       │   ├── variables.tf
+    │       │   └── outputs.tf
+    │       │
+    │       ├── network/
+    │       │   ├── main.tf
+    │       │   ├── variables.tf
+    │       │   └── outputs.tf
+    │       │
+    │       ├── security/
+    │       │   ├── main.tf
+    │       │   ├── variables.tf
+    │       │   └── outputs.tf
+    │       │
+    │       └── storage/
+    │           ├── main.tf
+    │           ├── variables.tf
+    │           └── outputs.tf
