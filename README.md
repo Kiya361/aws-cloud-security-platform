@@ -45,7 +45,6 @@ Terraform-based AWS cloud security platform implementing Zero Trust access, thre
 ### Cloudwatch Alarm
 
 ![docs/screenshots](cloudwatch-alarm.png)
-
 ### Failed Login Detection
 
 ![docs/screenshots](cloudwatch-detection.png)
@@ -67,7 +66,7 @@ Terraform-based AWS cloud security platform implementing Zero Trust access, thre
 
 ## Security Pipeline
 
-
+```text
 Failed Login Attempt
         ↓
 CloudWatch Logs
@@ -81,6 +80,7 @@ SNS Email Notification
 Lambda Auto-Response
         ↓
 Attacker IP Extraction
+```
 
 ## Future Improvements
 
@@ -101,3 +101,35 @@ Attacker IP Extraction
 - Automating security responses using AWS Lambda
 - Using Python regular expressions to extract attacker IP addresses
 - Designing event-driven security workflows using Cloudwatch, SNS, and Lambda
+
+## Project Outcomes
+
+Successfully implemented:
+
+- Terraform-based AWS infrastructure deployment
+- Zero Trust administration using AWS Systems Manager (SSM)
+- CloudWatch log monitoring and detection
+- SNS-based alerting workflows
+- Lambda-driven automated incident response
+- Attacker IP extraction using Python regular expressions
+
+Result:
+
+A cloud security monitoring platform capable of detecting suspicious login activity and initiating automated response workflows.
+
+## Skills Demonstrated
+
+- AWS
+- Terraform
+- Infrastructure as Code (IaC)
+- Python
+- IAM
+- Systems Manager (SSM)
+- CloudWatch
+- SNS
+- Lambda
+- Detection Engineering
+- Security Monitoring
+- Incident Response Automation
+- Zero Trust Architecture
+
